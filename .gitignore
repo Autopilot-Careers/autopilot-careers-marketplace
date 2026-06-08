@@ -1,0 +1,14 @@
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor noise
+.vscode/
+.idea/
+*.swp
+
+# Node noise
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*

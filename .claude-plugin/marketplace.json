@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "autopilot-careers",
+  "description": "Career on Autopilot plugins for Claude Code and Claude Desktop: resume writing, job analysis, and career planning.",
+  "owner": {
+    "name": "Autopilot Careers",
+    "email": "ahmad.akilan@beno.com"
+  },
+  "plugins": [
+    {
+      "name": "write-resume-plugin",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/alc0der/autopilot-careers.git",
+        "path": "packages/agent-marketplace",
+        "ref": "main"
+      },
+      "description": "Resume writing, job analysis, and career planning tools. Try: /write-resume for <LinkedIn job URL>",
+      "version": "1.18.1",
+      "category": "productivity",
+      "keywords": ["resume", "career", "job-search", "linkedin", "cv"],
+      "author": {
+        "name": "Autopilot Careers"
+      },
+      "homepage": "https://github.com/Autopilot-Careers",
+      "repository": "https://github.com/alc0der/autopilot-careers",
+      "license": "MIT"
+    }
+  ]
+}
