@@ -11,7 +11,7 @@
       "name": "write-resume-plugin",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/alc0der/autopilot-careers.git",
+        "url": "https://github.com/Autopilot-Careers/autopilot-careers-community.git",
         "path": "packages/agent-marketplace",
         "ref": "main"
       },
@@ -23,7 +23,7 @@
         "name": "Autopilot Careers"
       },
       "homepage": "https://github.com/Autopilot-Careers",
-      "repository": "https://github.com/alc0der/autopilot-careers",
+      "repository": "https://github.com/Autopilot-Careers/autopilot-careers-community",
       "license": "MIT"
     }
   ]
